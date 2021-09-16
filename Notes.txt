@@ -1,0 +1,51 @@
+Notes and !todos, *ideas:
+
+1*-------- Add a random number to the notification red span, and on clicking it that many notifications 				with tooltips show up. After clicking once, the notifications red dot goes away, and the 					notifications list style changes to something like "viewed"
+2!------- Create Carousel.
+3!------Create playbar, as footer?
+4!-------- Create Geet.com logo on photoshop.
+5*-------Queue collapse and relapse on - small and big windows.------Created, but animation bug to be fixed
+6*------Add to queue functionality? Tough, but doable. ------DONE!
+
+7!---------Ties in with 11-------Add music Playing Animation (in place of list number) once an li in 				queue is clicked. Also, play that song on the footer as well. 
+
+8!--------In top picks section, add Play button on hover, and add to queue option. Also try Making artwork into CD and rotating effect?
+9!---------In top picks section, change music to diff 4 musicsss.
+10!----------Fill out all image alt attributes
+
+11! ---------PENDING AND HARD ---------Add elements ".playable" walo ko click karne pe queue me bhi. Uff. and playing both sides. matlab rotating. Ya only one side? cool.
+12!--------Add the hide feature.
+13!--------Create the format 1 and format 2 elements using JS not HTML.
+===================================
+14! Add a "Top albums" section to index.html
+15! Make the albums page
+16! Dynamize the albums page
+17! Link the two pages them
+Thoughts: 
+	Send album name and curent queue list to the next page, and back also.
+===================================
+18! ----------Add function to move the slider with the song, and as the slider reaches it's end, the next song is played
+19!-----------Add accurate song durations
+====================================
+20! If all the top picks songs are hidden, delete the whole section. Same for geet specials
+USE THE .FLEX class Everywhere to create a flex.
+21! Add function and class to keep the player footer up for 7 seconds when a song is played
+22! Volume pe click karne pe volume tooltip option popping up
+23! Add restart song function on click
+24! Create shuffle songs function
+====================================
+
+FIX BUGS IN CODE:
+1.-----------------FIXED If 2 songs are added to queue, then the second last one wala's heart is not 							clicking. uff
+2. -------------Song interval moving slider wala bug. uffff
+
+SCORE:
+
+Home Screen Basic Layout (Max Score 20)
+Home Screen Carousel (Max Score 10)
+Bottom Music Player (Max Score 10)
+Single Playlist Screen (Max Score 20)
+Responsive Design (Max Score 10)
+Code Quality - Avoid redundancies, Proper use of classes and Neat code (Max Score 10)
+Comments - Proper Comments should be added (Max Score 10)
+Innovation (Max Score 10)

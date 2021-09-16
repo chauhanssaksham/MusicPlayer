@@ -1,0 +1,30 @@
+System working:
+1. All the songs will be stored in an array of objects. A song will be identified by its index in the array.The objects will be storing these properties: index, name, duration, imgUrl, artist, inQueue (bool), isFav, mp3 (not for now).
+Another array songsInQueueOrder will hold the indexes of the songs, in the order they are in the queue. This will help create a "Play next" and "Play last" function.
+A variable currentSong will be there throughout, which will be null if no song is playing or the index of the song playing.
+2. On page load, initially, HTML-wise the queue will be empty. A function will traverse throughout the array and if song.inQueue is found true, then it will add it to the queue. If isFav is also true, the heart will be light up.
+2.5 : Elements in the top-picks and other sections will hold the index of the respective songs in data-songId attribute.
+3.On clicking "Add to queue" on a song: The song will be added to queue, and inQueue for that object will become true.
+4. On clicking "Play" on a song, that song will replace the elements in the player. If it is not in the queue, it will be added to the queue.
+The song that has been played will have the cd effect on the artwork in the queue.
+5. Create the play-next and play-last functions.
+6.Finally, see if actually playing the songs is also feasible. Lol.
+
+-------Creating the Play functions process:
+1. ---------Change dynamic.js so that li items also hold song Id with them. Also implement the songsInQueueOrder Array.
+2. When a song is "Played":
+
+		a. If it is not in the queue, add it to the queue first.
+		b. If it is already in the queue: Add CD effect to that li item in queue, and playSong on the player
+		c. update currentSongId.
+		d. remove CD effect from the last song Playing.
+		On page load, play the first song in the queue so that there is atleast a current song.
+
+
+---------Everything is built, and I cant believe it!
+
+Last steps:
+1. Add more songs! And add their accurate song durations
+2. When playSong() is called, slider ki value should be accurate to 10ms. 
+3. Implement a moving slider when a song is playing.
+4. Add documentation heavily lmao

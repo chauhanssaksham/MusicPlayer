@@ -1,0 +1,6 @@
+1. Add the notifications to be served using a Database
+2. Add Songs to a Database
+3. Add a Queue Database, that fetches songs from the Songs Database
+4. Create a page for individual artists, albums and songs. Use Databases to do this.
+    5. Add a layouts framework:
+        5a. and incorporate point 4 into that, with header footer and queue 
